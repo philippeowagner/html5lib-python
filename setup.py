@@ -43,11 +43,11 @@ with open(os.path.join("html5lib", "__init__.py"), "rb") as init_file:
             version = a.value.s
 
 setup(name='html5lib',
-      version=version,
+      version='0.99999999',
       url='https://github.com/html5lib/html5lib-python',
       license="MIT License",
       description='HTML parser based on the WHATWG HTML specification',
-      long_description=long_description,
+      long_description="long_description",
       classifiers=classifiers,
       maintainer='James Graham',
       maintainer_email='james@hoppipolla.co.uk',
